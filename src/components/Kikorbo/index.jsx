@@ -2,7 +2,7 @@ import Card from "components/Card";
 import React from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
-const Kanban = ({ data, setData, handleEditTask }) => {
+const Kikorbo = ({ data, setData, handleEditTask }) => {
   /**
    * Handle Drag and Drop Card Item
    */
@@ -84,4 +84,4 @@ const Kanban = ({ data, setData, handleEditTask }) => {
   );
 };
 
-export default Kanban;
+export default Kikorbo;

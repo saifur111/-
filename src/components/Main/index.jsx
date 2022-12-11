@@ -1,5 +1,5 @@
 import { ReactComponent as DropdownIcon } from "assets/icon/dropdown-icon.svg";
-import Kanban from "components/Kanban";
+import Kikorbo from "components/Kikorbo";
 import LogoComponent from "components/LogoComponent";
 import ModalNewTask from "components/ModalNewTask";
 import React, { useEffect, useState } from "react";
@@ -153,7 +153,7 @@ const Main = () => {
             </Button>
           </div>
           <div className="main-content__kanban">
-            <Kanban
+            <Kikorbo
               data={dataTaskList}
               setData={setDataTaskList}
               handleEditTask={handleEditTask}
